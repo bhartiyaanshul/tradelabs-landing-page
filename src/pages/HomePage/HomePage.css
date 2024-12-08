@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Euclid Circular';
+    src: url('/public/fonts/Euclid Circular B Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EditorsNote';
+    src: url('/public/fonts/EditorsNote-Regular-iF664322be6e849.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Euclid Circular', sans-serif;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+    justify-content: center;
+    background-image: url('/public/images/TradeLabBackground.png');
+
+}
+
+.main-section {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.main-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.beta-button {
+    display: flex;
+    /* width: 240px; */
+    gap: 10px;
+    background-color: #40499B20;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.beta-icon {
+    width: 20px;
+}
+
+.main-heading {
+    font-size: 86px;
+    font-family: 'EditorsNote', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+}
+
+.group-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.get-started-button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get-started-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.get-access-button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #C8C8C820;
+    color: white;
+    padding: 0px 16px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get-access-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.partners {
+    display: flex;
+    gap: 78px;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner {
+    height: 28px;
+}
+
+.display {
+    padding: 90px 0px;
+    width: 980px;
+    height: 578px;
+}
